@@ -16,6 +16,7 @@ class HelloTest extends TestCase
         $testClass = new Hello();
         $result = $testClass->printHelloWorld();
 
-        $this->assertEquals('Hello World', $result);
+        $this->assertEquals('Hello World I am alive', $result);
     }
 }
+
